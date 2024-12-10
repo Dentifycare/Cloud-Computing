@@ -2,7 +2,7 @@
 
 These are our utilities to make this application lighter and more efficient to run.
 
-<img src=[https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png](https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-icon-2048x1840-x12dqzzh.png ](https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-icon-2048x1840-x12dqzzh.png) alt="Cloud Run" width="300"/>
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-icon-2048x1840-x12dqzzh.png" alt="Cloud Run" width="300"/>
 
 Cloud Run is a managed compute platform that lets you run containers directly on top of Google's scalable infrastructure.
 
@@ -14,7 +14,7 @@ We are using Google Cloud Run to deploy our Machine Learning API because with Cl
 
 3. Cost-Effective: You only pay for the resources used while the container is running, reducing costs when the application is not in use.
 
-<img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/cloud-storage-terbaik-termurah-google-indonesia.png alt="Cloud Storage" width="300"/>
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Google_Storage-Logo.wine.png" alt="Cloud Storage" width="300"/>
 
 Cloud Storage is a managed service for storing unstructured data. Store any amount of data and retrieve it as often as you like.
 
