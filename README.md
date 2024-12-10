@@ -2,7 +2,7 @@
 
 These are our utilities to make this application lighter and more efficient to run.
 
-<img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png alt="Cloud Run" width="300"/>
+<img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png](https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-icon-2048x1840-x12dqzzh.png alt="Cloud Run" width="300"/>
 
 Cloud Run is a managed compute platform that lets you run containers directly on top of Google's scalable infrastructure.
 
