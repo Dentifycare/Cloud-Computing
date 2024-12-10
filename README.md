@@ -4,7 +4,7 @@ This is repository for Cloud Computing to commit their file,text,any of jobs.
 
 <img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png alt="App Icon" width="300"/>
 
-Cloud Run
+Cloud Run is a managed compute platform that lets you run containers directly on top of Google's scalable infrastructure.
 
 We are using Google Cloud Run to deploy our Machine Learning API because with Cloud Run, we get :
 
