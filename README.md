@@ -1,6 +1,6 @@
 # Dentifycare-Cloud-Computing
 
-This is repository for Cloud Computing to commit their file,text,any of jobs.
+This is our Utils to make this application more light to run
 
 <img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png alt="App Icon" width="300"/>
 
