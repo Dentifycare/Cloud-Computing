@@ -1,39 +1,53 @@
 # Dentifycare-Cloud-Computing
 
-These are our utilities to make this application lighter and more efficient to run.
+## Base URL  
+**ML Deployment Documentation**  
+[ML API Documentation](https://dentifycare-ml-api-363002036886.asia-southeast2.run.app/docs)
 
-<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-icon-2048x1840-x12dqzzh.png" alt="Cloud Run" width="200"/>
+---
 
-Cloud Run is a managed compute platform that lets you run containers directly on top of Google's scalable infrastructure.
+## Powered by Google Cloud Platform (GCP)  
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Google_Cloud_logo.png" alt="GCP Logo" width="200"/>  
 
-We are using Google Cloud Run to deploy our Machine Learning API because with Cloud Run, we get :
+Google Cloud Platform (GCP) provides a suite of cloud computing services that allows us to build, deploy, and scale applications with ease. In this project, GCP enables us to handle machine learning models and APIs efficiently.
 
-1. Automatic Scalability: Cloud Run automatically scales the number of instances based on demand, from zero to thousands, depending on your needs.
+---
 
-2. Easy Management: You only need to manage your container without worrying about the underlying infrastructure.
+## Cloud Technologies Used  
 
-3. Cost-Effective: You only pay for the resources used while the container is running, reducing costs when the application is not in use.
+### Cloud Storage  
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Google-Storage.png" alt="Cloud Storage Logo" width="200"/>  
 
-<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Google_Storage-Logo.wine.png" alt="Cloud Storage" width="300"/>
+Cloud Storage is used to store the machine learning model files securely and reliably.  
+#### Steps to Use Cloud Storage:  
+1. Upload the pre-trained ML model files (e.g., `.h5` or `.pkl`) to a GCP Cloud Storage bucket.  
+2. Set the appropriate access permissions for the bucket (e.g., grant access to Cloud Run or authorized users).  
+3. Use the GCP storage URL to access the models during deployment or runtime.  
 
-Cloud Storage is a managed service for storing unstructured data. Store any amount of data and retrieve it as often as you like.
+---
 
-We are using Google Cloud Storage to store our Machine Learning model so that the application can easily access it.
+### Cloud Build  
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Cloud-build.png" alt="Cloud Build Logo" width="200"/>  
 
-Advantages of Google Cloud Storage
+Cloud Build automates the building and packaging of the ML model and API into Docker containers.  
+#### Steps to Deploy with Cloud Build:  
+1. Write a `Dockerfile` defining the environment and dependencies for the ML model and API.  
+2. Push the source code and `Dockerfile` to a Git repository (e.g., GitHub).  
+3. Trigger a build in Cloud Build by connecting the repository and configuring a `cloudbuild.yaml` file.  
+4. Cloud Build generates a Docker image and pushes it to the Container Registry.  
 
-1. Google Cloud Storage offers several key advantages that make it a popular choice for storing data, including machine learning models:
+---
 
-2. High Scalability: Google Cloud Storage is designed to handle large amounts of data effortlessly. You can easily store and access data on a petabyte scale without any issues.
+### Cloud Run  
+<img src="https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/Cloud-run.png" alt="Cloud Run Logo" width="200"/>  
 
-3. Global Accessibility: Data stored in Google Cloud Storage can be accessed from anywhere in the world, making it ideal for applications that require global reach.
+Cloud Run is used to deploy and run the machine learning API as a scalable, serverless container.  
+#### Steps to Deploy on Cloud Run:  
+1. Select the Docker image created by Cloud Build from the Container Registry.  
+2. Deploy the image to Cloud Run, specifying required resources (e.g., memory, CPU) and environment variables.  
+3. Configure the endpoint to allow authorized access or public access if necessary.  
+4. Test the API by accessing the provided Cloud Run URL or Base URL.  
 
-4. Security: Google Cloud Storage provides robust security features, including data encryption both in transit and at rest, as well as granular access controls.
+---
 
-5. Easy Integration: It integrates seamlessly with other Google Cloud products like BigQuery, Cloud Functions, and AI Platform, making data processing and analysis straightforward.
-
-6. Competitive Pricing: Google offers flexible pricing options, including standard, nearline, coldline, and archive storage, allowing you to choose the option that best meets your cost and performance needs.
-
-7. Easy Management: Google Cloud Storage provides an intuitive user interface and easy-to-use APIs, simplifying data management.
-
-With these advantages, Google Cloud Storage is a robust option for data storage in various scenarios, including storing machine learning models.
+This documentation provides a comprehensive overview of how **Cloud Storage**, **Cloud Build**, and **Cloud Run** are utilized to deploy and manage our ML models and APIs effectively using GCP services.
