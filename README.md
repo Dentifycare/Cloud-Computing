@@ -13,3 +13,9 @@ We are using Google Cloud Run to deploy our Machine Learning API because with Cl
 2. Easy Management: You only need to manage your container without worrying about the underlying infrastructure.
 
 3. Cost-Effective: You only pay for the resources used while the container is running, reducing costs when the application is not in use.
+
+<img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png alt="App Icon" width="300"/>
+
+Cloud Storage 
+
+We are using Google Storage to store our Machine Learning model so the application can easily access to it 
