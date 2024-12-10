@@ -1,6 +1,6 @@
 # Dentifycare-Cloud-Computing
 
-This is our Utils to make this application more light to run
+These are our utilities to make this application lighter and more efficient to run.
 
 <img src=https://github.com/Dentifycare/Dentifycare-Cloud-Computing/blob/main/google-cloud-run-logo.png alt="App Icon" width="300"/>
 
